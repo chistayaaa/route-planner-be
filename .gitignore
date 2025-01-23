@@ -1,0 +1,7 @@
+build
+dist
+/media
+/images
+node_modules
+.env
+package-lock.json
