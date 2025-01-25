@@ -1,31 +1,35 @@
-import type { CollectionConfig } from 'payload'
+import type { CollectionConfig } from "payload";
 
 export const Users: CollectionConfig = {
-  slug: 'users',
+  slug: "users",
   admin: {
-    useAsTitle: 'email',
+    useAsTitle: "email",
     hideAPIURL: true,
   },
-  auth: true,
+  auth: {
+    maxLoginAttempts: 50,
+    lockTime: 600,
+  },
+  // auth: true,
   fields: [
     {
-      name: 'name',
-      type: 'text',
+      name: "name",
+      type: "text",
       required: true,
     },
     {
-      name: 'email',
-      type: 'email',
+      name: "email",
+      type: "email",
       required: true,
       unique: true,
     },
     {
-      name: 'roles',
-      type: 'select',
+      name: "roles",
+      type: "select",
       hasMany: true,
-      options: ['admin', 'user'],
+      options: ["admin", "user"],
       required: true,
-      defaultValue: ['user'],
+      defaultValue: ["user"],
     },
   ],
-}
+};

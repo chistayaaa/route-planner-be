@@ -1,28 +1,5 @@
 {
-  "node": {
-    "408434fdd354a90bc83ca31ec4b9b26f3f982cf57c": {
-      "workers": {
-        "app/(payload)/admin/[[...segments]]/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fchistayaaa%2FDesktop%2Fproj%2Froute-planner-be%2Fsrc%2Fapp%2F(payload)%2Flayout.tsx%22%2C%5B%5B%22408434fdd354a90bc83ca31ec4b9b26f3f982cf57c%22%2C%22%24%24RSC_SERVER_ACTION_0%22%5D%5D%5D%2C%5B%22%2FUsers%2Fchistayaaa%2FDesktop%2Fproj%2Froute-planner-be%2Fnode_modules%2F%40payloadcms%2Fnext%2Fdist%2Flayouts%2FRoot%2Findex.js%22%2C%5B%5B%226093eac5b192b3a2d0233fba4af45fa2dd6885f3d7%22%2C%22%24%24RSC_SERVER_ACTION_0%22%5D%5D%5D%5D&__client_imported__=!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(payload)/admin/[[...segments]]/page": "rsc"
-      }
-    },
-    "6093eac5b192b3a2d0233fba4af45fa2dd6885f3d7": {
-      "workers": {
-        "app/(payload)/admin/[[...segments]]/page": {
-          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fchistayaaa%2FDesktop%2Fproj%2Froute-planner-be%2Fsrc%2Fapp%2F(payload)%2Flayout.tsx%22%2C%5B%5B%22408434fdd354a90bc83ca31ec4b9b26f3f982cf57c%22%2C%22%24%24RSC_SERVER_ACTION_0%22%5D%5D%5D%2C%5B%22%2FUsers%2Fchistayaaa%2FDesktop%2Fproj%2Froute-planner-be%2Fnode_modules%2F%40payloadcms%2Fnext%2Fdist%2Flayouts%2FRoot%2Findex.js%22%2C%5B%5B%226093eac5b192b3a2d0233fba4af45fa2dd6885f3d7%22%2C%22%24%24RSC_SERVER_ACTION_0%22%5D%5D%5D%5D&__client_imported__=!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(payload)/admin/[[...segments]]/page": "rsc"
-      }
-    }
-  },
+  "node": {},
   "edge": {},
   "encryptionKey": "Jl+cY1sBQ1EmcGPNhlmtLS5RYXEnghM4WTfhAVZ2bEA="
 }
